@@ -1,0 +1,22 @@
+.name{
+    font-size: 4rem;
+    color: #686D76;
+}
+.font-list{
+    font-size: 13pt;
+}
+.round-image{
+    border-radius: 30%;
+}
+.container-skills{
+    text-align: center;
+}
+
+@media (max-width:990px){
+    .container > .row{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
